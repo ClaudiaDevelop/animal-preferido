@@ -9,15 +9,15 @@ header{
     min-height: 280px;
 }
 .cabecera{
-    padding: 30px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .cabecera h1{
     color: white;
-    padding-left: 80px;
-    font-size: 3.5em;
+    padding-left: 10px;
+    font-size: 5em;
     text-shadow: 3px 3px 2px gray;
 }
 .img_cabecera{
@@ -51,6 +51,35 @@ header{
 }
 .navegacion a:hover{
     color: rgb(175, 175, 175);
+}
+section{
+    margin: 20px 150px;
+    background: white;
+    border: 2px solid rgb(16, 16, 16);
+    border-radius: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px gray;
+}
+section p{
+    margin: 0 50px 20px;
+    font-size: 1.1em;
+    text-align: left;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+section p:last-child{
+    margin-bottom: 50px;
+}
+.mur_colgando{
+    width: 400px;
+    height: 400px;
+}
+.mur_importante{
+    width: 500px;
+    height: 400px;
 }
 footer{
     background: rgb(16, 16, 16);
