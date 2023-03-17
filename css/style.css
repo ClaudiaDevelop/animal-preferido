@@ -88,3 +88,9 @@ footer{
     text-align: center;
     padding: 10px 0;
 }
+/* Css de Arte Murcielago */
+.imagenes img{
+    width: 250px;
+    height: 350px;
+    padding: 8px 2px 20px;
+}
