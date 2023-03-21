@@ -1,8 +1,14 @@
 *{
     box-sizing: border-box;
 }
+h1, h2{
+    font-family: 'Dancing Script', cursive, sans-serif;
+}
+p, a{
+    font-family: 'Indie Flower', cursive, sans-serif;
+}
 body{
-    background: url('../imagenes/fondo-murcielago.jpg');
+    background: url('../imagenes/fondo-murcielago2.jpg');
 }
 header{
     background: rgb(16, 16, 16);
@@ -48,6 +54,7 @@ header{
     text-decoration: none;
     color: white;
     font-size: 1.6em;
+    font-weight: bold;
 }
 .navegacion a:hover{
     color: rgb(175, 175, 175);
@@ -65,8 +72,9 @@ h2{
 }
 section p{
     margin: 0 50px 20px;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: left;
+    font-weight: bold;
     line-height: 1.3em;
     letter-spacing: 1px;
 }
@@ -84,7 +92,8 @@ section p:last-child{
 footer{
     background: rgb(16, 16, 16);
     color: white;
-    height: 90px;
+    height: 100px;
+    font-size: 1.3em;
     text-align: center;
     padding: 10px 0;
 }
