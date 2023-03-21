@@ -6,6 +6,7 @@ h1, h2{
 }
 p, a{
     font-family: 'Indie Flower', cursive, sans-serif;
+    font-weight: bold;
 }
 body{
     background: url('../imagenes/fondo-murcielago2.jpg');
@@ -116,6 +117,7 @@ footer{
 .h2_con{
     margin: 30px 80px 20px;
     font-weight: 400;
+    text-shadow: 1px 1px 2px gray;
 }
 form{
     display: flex;
