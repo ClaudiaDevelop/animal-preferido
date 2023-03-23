@@ -24,7 +24,7 @@ header{
 .cabecera h1{
     color: white;
     padding-left: 10px;
-    font-size: 5em;
+    font-size: 6em;
     text-shadow: 3px 3px 2px gray;
 }
 .img_cabecera{
@@ -60,7 +60,7 @@ header{
     font-weight: bold;
 }
 .navegacion a:hover{
-    color: rgb(175, 175, 175);
+    color: #fe9998;
 }
 section{
     margin: 20px 150px;
